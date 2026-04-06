@@ -1,4 +1,4 @@
-# fMRI Object Representation Analysis
+# fMRI object representation analysis
 
 In this project, I investigated whether the patterns of brain activity for lookalike objects generalize to their corresponding animate objects or object identities in three regions of interest (ROIs): primary visual cortex (V1), anterior ventral temporal cortex (VTC-ant), and posterior ventral temporal cortex (VTC-post). Using One-vs-One multiclass decoding, I trained classifiers on fMRI data evoked by lookalike objects and tested them on fMRI data elicited by animate and inanimate objects. The results showed that the patterns of BOLD activity for lookalike objects generalized to matching animate objects in VTC-ant and VTC-post, but not in V1. Additionally, the activity patterns for lookalike objects yielded significant accuracy when classifying inanimate objects in all three ROIs.
 
